@@ -1,0 +1,81 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #02aab0;
+    background: linear-gradient(45deg, #02aab0, #00cdac);
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 350px;
+    text-align: center;
+}
+
+.profile-header {
+    background: url('./images/bg-pattern-card.svg');
+    background-size: cover;
+    padding: 40px 20px 20px;
+    height: 50px;
+    position: relative;
+}
+
+.profile-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid white;
+    position: absolute;
+    bottom: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.profile-body {
+    padding: 60px 20px 20px;
+}
+
+.profile-body h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.profile-body h2 span {
+    font-weight: normal;
+    color: gray;
+}
+
+.profile-body p {
+    color: gray;
+    margin: 5px 0 20px;
+}
+
+.profile-footer {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile-stats div {
+    text-align: center;
+}
+
+.profile-stats h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.profile-stats p {
+    margin: 5px 0 0;
+    color: gray;
+}
